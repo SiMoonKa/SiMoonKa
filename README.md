@@ -5,10 +5,10 @@ Právě stavím svůj první opravdový produkt — **Enynku**, českou beauty p
 
 ## 🛠️ S čím pracuji
 
-**Frontend:** Next.js · React · TypeScript · Tailwind CSS
-**Backend:** Node.js · Prisma · PostgreSQL
-**Platby & e-maily:** Stripe · Amazon SES
-**Nástroje:** Docker · Git · Playwright (automatické testy)
+- **Frontend:** Next.js · React · TypeScript · Tailwind CSS
+- **Backend:** Node.js · Prisma · PostgreSQL
+- **Platby & e-maily:** Stripe · Amazon SES
+- **Nástroje:** Docker · Git · Playwright (automatické testy)
 
 ## 🚀 Na čem pracuji
 
