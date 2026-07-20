@@ -44,3 +44,4 @@ Nasazení do produkce (Railway), CI/CD, přístupnost (a11y) a psaní čitelněj
 Jsem otevřená příležitostem v IT — junior/medior full-stack nebo frontend, ideálně **na dálku nebo na částečný úvazek**. Ráda si udělám i menší zakázku na web.
 
 - ✉️ E-mail: **info@enynka.cz**
+- 💼 LinkedIn: **[simona-fichtnerova](https://www.linkedin.com/in/simona-fichtnerova)**
