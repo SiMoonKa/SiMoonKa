@@ -1,7 +1,7 @@
 ## Ahoj, jsem Simona 👋
 
 
-Full-stack vývojářka — samouk. Posledního půl roku stavím platformu **Enynka**, produkční webovou aplikaci, kterou jsem navrhla a naprogramovala od nuly sama.
+Full-stack vývojářka. Posledního půl roku stavím platformu **Enynka**, produkční webovou aplikaci, kterou jsem navrhla a naprogramovala od nuly sama.
 
 Nejsem po bootcampu s to-do listem v portfoliu. Mám za sebou reálný produkt: databázi, platby, testy, bezpečnostní audit a nasazení.
 
