@@ -1,6 +1,6 @@
 ## Simona Fichtnerová
 
-Jsem full-stack vývojářka. Vyvíjím Enynku, webovou platformu, přes kterou si lidé budou nejen rezervovat kadeřnice, kosmetičky a další beauty služby. Dělám ji sama, od návrhu databáze přes platby až po nasazení a provoz.
+Jsem full-stack vývojářka. Vytvořila jsem **[Enynku](https://enynka.cz)**, webovou platformu, přes kterou si lidé rezervují kadeřnice, kosmetičky a další beauty služby – v salonu i u sebe doma. Od září 2026 běží naostro. Dělám ji sama, od návrhu databáze přes platby až po nasazení a provoz.
 
 #### Co Enynka umí navíc oproti konkurenci
 
@@ -21,7 +21,7 @@ Běžné rezervační systémy umí hlavně kalendář. Enynka k němu přidáv�
 - čeština a angličtina, včetně oslovení v 5. pádě
 - GDPR, DSA, moderace a nahlašování obsahu
 
-Kód je soukromý, ale ráda o projektu povyprávím a ukážu, jak funguje.
+Kód je soukromý, ale Enynku si můžete vyzkoušet na **[enynka.cz](https://enynka.cz)**. Ráda ukážu, jak funguje uvnitř.
 
 ### Jak pracuji
 
@@ -49,6 +49,7 @@ Přístupnost webu a psaní kódu, ve kterém se snadno vyzná i někdo další.
 
 Hledám místo junior nebo medior full-stack či frontend vývojářky, nejlépe na dálku nebo na částečný úvazek. Zakázku na web si ráda vezmu taky.
 
+- Web: [enynka.cz](https://enynka.cz)
 - E-mail: info@enynka.cz
 - LinkedIn: [simona-fichtnerova](https://www.linkedin.com/in/simona-fichtnerova)
 
