@@ -1,57 +1,36 @@
 ## Simona Fichtnerová
 
-Jsem full-stack vývojářka. Vytvořila jsem **[Enynku](https://enynka.cz)**, webovou platformu, přes kterou si lidé rezervují kadeřnice, kosmetičky a další beauty služby – v salonu i u sebe doma. Od září 2026 běží naostro. Dělám ji sama, od návrhu databáze přes platby až po nasazení a provoz.
+Full-stack vývojářka. Navrhla, naprogramovala a sama provozuji **[Enynku](https://enynka.cz)** - českou platformu pro beauty profesionály s online rezervacemi, předplatným a platbami. **Od září 2026 běží naostro se skutečnými uživateli.**
 
-#### Co Enynka umí navíc oproti konkurenci
+Za půl roku od prázdného repozitáře do produkce: **1 200+ commitů**, kompletní vývoj, nasazení i provoz.
 
-Běžné rezervační systémy umí hlavně kalendář. Enynka k němu přidává věci, které jinde v jednom místě nenajdete:
+### Co jsem v Enynce postavila
 
-- 🏠 **Profesionál domů:** kadeřnice, kosmetička, manikérka atd. přijede za klientkou. Kvůli bezpečnosti obou stran ověřujeme doklady.
-- 💼 **Burza práce:** salony zveřejňují nabídky práce a profesionálové se tu sami nabízejí.
-- 💸 **Rezervace bez provize:** profesionál neplatí procenta z každé zakázky.
-- ⏰ **Last-minute termíny:** volná místa na poslední chvíli přehledně na jednom místě.
-- 🎓 **Kurzy:** přehled vzdělávání pro profesionály.
-
-
-#### Co v ní je:
-
-- rezervace s kalendářem, potvrzováním termínů a storno podmínkami
-- profily profesionálů a salonů, kartotéka klientů a zprávy
-- předplatné a platby přes Stripe, faktury v PDF
-- čeština a angličtina, včetně oslovení v 5. pádě
-- GDPR, DSA, moderace a nahlašování obsahu
-
-Kód je soukromý, ale Enynku si můžete vyzkoušet na **[enynka.cz](https://enynka.cz)**. Ráda ukážu, jak funguje uvnitř.
+- **Rezervace** - kalendář, kapacity, potvrzování, storno, ochrana proti dvojí rezervaci, minimální předstih
+- **Platby** - Stripe (předplatné i jednorázové), webhooky, PDF faktury
+- **Bezpečnost** - NextAuth, role, 2FA (TOTP), rate limiting přes Redis, CAPTCHA spouštěná podle rizika (OWASP)
+- **Integrace** - ARES (ověření IČO), e-maily, CDN pro fotky
+- **Automatizace** - 17 naplánovaných úloh: připomínky, expirace, úklid dat podle GDPR, hlídání domény a certifikátu
+- **CS/EN** včetně českého skloňování (5. pád)
 
 ### Jak pracuji
 
-Testy píšu průběžně. Enynku hlídají end-to-end testy v Playwrightu a unit testy ve Vitestu, které běží v GitHub Actions před každým nasazením.
-
-Na bezpečnost myslím od začátku, ne až na konci. Při auditech jsem v projektu našla a opravila třeba stored XSS přes podvrženou příponu souboru nebo API, které vracelo víc údajů, než mělo.
-
-Hodně pracuji s AI nástroji, hlavně s Claude Code. Rozhoduji ale já a všechno, co jde do produkce, kontroluji a testuji.
-
-Zajímá mě i to, co je kolem kódu: obchodní podmínky, GDPR, fakturace. U platformy, kde se potkávají zákazníci a živnostníci, to k práci patří.
+- **Testy jako pojistka** - 1 400+ unit testů (Vitest) a 94 E2E scénářů (Playwright) na desktopu i mobilu. Každá změna jde přes pull request a CI v GitHub Actions.
+- **Provoz** - Sentry, hlídání dostupnosti, denní zálohy s ověřenou obnovou. Nasazuji i několikrát denně.
+- **Bezpečnost od začátku** - při auditech jsem našla a opravila např. stored XSS přes podvrženou příponu souboru nebo API, které vracelo víc údajů, než mělo.
+- **AI jako kolega** - denně pracuji s Claude Code. Rozhoduji ale já a všechno, co jde do produkce, kontroluji a testuji.
+- **Produkt, ne jen kód** - obchodní podmínky, GDPR, fakturace i DPH jsem řešila sama, takže chápu, proč se co staví.
 
 ### Technologie
 
-- TypeScript, Next.js 15, React 19, Tailwind CSS, Radix UI
-- Prisma, PostgreSQL, Redis, NextAuth, Zod
-- Playwright, Vitest
-- Docker, Traefik, GitHub Actions, Railway, Sentry
-- Stripe, Amazon SES, Cloudflare Turnstile
+`TypeScript` `Next.js 15` `React 19` `Node.js` `PostgreSQL` `Prisma` `Redis` `Tailwind CSS` `NextAuth` `Zod` `Stripe` `Vitest` `Playwright` `Docker` `GitHub Actions` `Railway` `Sentry`
 
-### Co se teď učím
-
-Přístupnost webu a psaní kódu, ve kterém se snadno vyzná i někdo další.
+Kód Enynky je soukromý, ale aplikaci si můžete vyzkoušet na **[enynka.cz](https://enynka.cz)** a ráda ukážu, jak funguje uvnitř. Ukázku mého kódu najdete v repozitáři **[cesky-vokativ](https://github.com/SiMoonKa/cesky-vokativ)**.
 
 ### Hledám práci
 
-Hledám místo junior nebo medior full-stack či frontend vývojářky, nejlépe na dálku nebo na částečný úvazek. Zakázku na web si ráda vezmu taky.
+Full-stack nebo frontend vývojářka, ideálně na dálku nebo na částečný úvazek.
 
 - Web: [enynka.cz](https://enynka.cz)
 - E-mail: info@enynka.cz
 - LinkedIn: [simona-fichtnerova](https://www.linkedin.com/in/simona-fichtnerova)
-
-
-
