@@ -29,8 +29,8 @@ Kód Enynky je soukromý, ale aplikaci si můžete vyzkoušet na **[enynka.cz](h
 
 ### Hledám práci
 
-Full-stack nebo frontend vývojářka, ideálně na dálku nebo na částečný úvazek.
+Full-stack nebo frontend vývojářka, ideálně na dálku, na částečný úvazek nebo spolupráci na IČO.
 
 - Web: [enynka.cz](https://enynka.cz)
-- E-mail: info@enynka.cz
+- E-mail: fichtnerova.s@seznam.cz
 - LinkedIn: [simona-fichtnerova](https://www.linkedin.com/in/simona-fichtnerova)
