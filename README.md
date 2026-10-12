@@ -27,6 +27,10 @@ Za půl roku od prázdného repozitáře do produkce: **1 200+ commitů**, kompl
 
 Kód Enynky je soukromý, ale aplikaci si můžete vyzkoušet na **[enynka.cz](https://enynka.cz)** a ráda ukážu, jak funguje uvnitř. Ukázku mého kódu najdete v repozitáři **[cesky-vokativ](https://github.com/SiMoonKa/cesky-vokativ)**.
 
+### Vzdělání
+
+Vibecoding Akademie I. (10/2026, [ověřit certifikát](https://www.vibecoding-akademie.cz/certifikat/VC-7V3AX4)) a Vibecoding Basecamp (03/2026, [ověřit](https://www.vibecoding-akademie.cz/certifikat/VC-QE2RHZ)). Předtím 18 let v kvalitě a auditech v automotive (interní auditor ISO 9001 / IATF 16949).
+
 ### Hledám práci
 
 Full-stack nebo frontend vývojářka, ideálně na dálku, na částečný úvazek nebo spolupráci na IČO.
