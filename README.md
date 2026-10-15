@@ -2,7 +2,7 @@
 
 Full-stack vývojářka. Navrhla, naprogramovala a sama provozuji **[Enynku](https://enynka.cz)** - českou platformu pro beauty profesionály s online rezervacemi, předplatným a platbami. **Od září 2026 běží naostro se skutečnými uživateli.**
 
-Za půl roku od prázdného repozitáře do produkce: **1 200+ commitů**, kompletní vývoj, nasazení i provoz.
+Za půl roku od prázdného repozitáře do produkce: **1 300+ commitů**, kompletní vývoj, nasazení i provoz.
 
 ### Co jsem v Enynce postavila
 
@@ -15,7 +15,7 @@ Za půl roku od prázdného repozitáře do produkce: **1 200+ commitů**, kompl
 
 ### Jak pracuji
 
-- **Testy jako pojistka** - 1 400+ unit testů (Vitest) a 94 E2E scénářů (Playwright) na desktopu i mobilu. Každá změna jde přes pull request a CI v GitHub Actions.
+- **Testy jako pojistka** - 1 500+ unit testů (Vitest) a 110+ E2E scénářů (Playwright) na desktopu i mobilu. Každá změna jde přes pull request a CI v GitHub Actions.
 - **Provoz** - Sentry, hlídání dostupnosti, denní zálohy s ověřenou obnovou. Nasazuji i několikrát denně.
 - **Bezpečnost od začátku** - při auditech jsem našla a opravila např. stored XSS přes podvrženou příponu souboru nebo API, které vracelo víc údajů, než mělo.
 - **AI jako kolega** - denně pracuji s Claude Code. Rozhoduji ale já a všechno, co jde do produkce, kontroluji a testuji.
