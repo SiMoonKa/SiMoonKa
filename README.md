@@ -1,17 +1,23 @@
 ## Simona Fichtnerová
 
-Full-stack vývojářka. Navrhla, naprogramovala a sama provozuji **[Enynku](https://enynka.cz)** - českou platformu pro beauty profesionály s online rezervacemi, předplatným a platbami. **Od září 2026 běží naostro se skutečnými uživateli.**
+Vyvíjím webové aplikace a AI automatizace. Sama jsem navrhla, naprogramovala a provozuji **rezervační platformu pro beauty profesionály** s online rezervacemi, předplatným a platbami. **Od září 2026 běží naostro a používá ji přes 80 profesionálů.** Běžný provoz za mě obstarávají automatizace a AI agenti, které jsem si postavila.
 
 Za půl roku od prázdného repozitáře do produkce: **1 300+ commitů**, kompletní vývoj, nasazení i provoz.
 
-### Co jsem v Enynce postavila
+### Co platforma umí
 
 - **Rezervace** - kalendář, kapacity, potvrzování, storno, ochrana proti dvojí rezervaci, minimální předstih
 - **Platby** - Stripe (předplatné i jednorázové), webhooky, PDF faktury
 - **Bezpečnost** - NextAuth, role, 2FA (TOTP), rate limiting přes Redis, CAPTCHA spouštěná podle rizika (OWASP)
 - **Integrace** - ARES (ověření IČO), e-maily, CDN pro fotky
-- **Automatizace** - 17 naplánovaných úloh: připomínky, expirace, úklid dat podle GDPR, hlídání domény a certifikátu
+- **Plánované úlohy** - 17 automatických úloh: připomínky, expirace, úklid dat podle GDPR, hlídání domény a certifikátu
 - **CS/EN** včetně českého skloňování (5. pád)
+
+### AI automatizace v provozu
+
+- **AI agenti** - ranní přehled z dat (registrace, rezervace, návštěvnost podle kampaní), návrh článku na web, který před předáním zkontroluje druhý agent, hlídání komentářů pod příspěvky a příprava odpovědí, připomínky nedokončených profilů
+- **Grafika a obsah** - skripty, které hromadně a jednotně generují obálky článků, obrázky k příspěvkům a náhledy odkazů
+- **Člověk rozhoduje** - agenti připravují, já schvaluji. Nic nejde ven bez kontroly.
 
 ### Jak pracuji
 
@@ -23,9 +29,9 @@ Za půl roku od prázdného repozitáře do produkce: **1 300+ commitů**, kompl
 
 ### Technologie
 
-`TypeScript` `Next.js 15` `React 19` `Node.js` `PostgreSQL` `Prisma` `Redis` `Tailwind CSS` `NextAuth` `Zod` `Stripe` `Vitest` `Playwright` `Docker` `GitHub Actions` `Railway` `Sentry`
+`TypeScript` `Next.js 15` `React 19` `Node.js` `PostgreSQL` `Prisma` `Redis` `Tailwind CSS` `NextAuth` `Zod` `Stripe` `Python` `Claude Code` `Vitest` `Playwright` `Docker` `GitHub Actions` `Railway` `Sentry`
 
-Kód Enynky je soukromý, ale aplikaci si můžete vyzkoušet na **[enynka.cz](https://enynka.cz)** a ráda ukážu, jak funguje uvnitř. Ukázku mého kódu najdete v repozitáři **[cesky-vokativ](https://github.com/SiMoonKa/cesky-vokativ)**.
+Kód platformy je soukromý, ráda ho ukážu na pohovoru. Ukázku mého kódu najdete v repozitáři **[cesky-vokativ](https://github.com/SiMoonKa/cesky-vokativ)**.
 
 ### Vzdělání
 
@@ -33,8 +39,7 @@ Vibecoding Akademie I. (10/2026, [ověřit certifikát](https://www.vibecoding-a
 
 ### Hledám práci
 
-Full-stack nebo frontend vývojářka, ideálně na dálku, na částečný úvazek nebo spolupráci na IČO.
+AI automatizace, interní nástroje nebo full-stack vývoj, na dálku a na zkrácený úvazek nebo spolupráci na IČO.
 
-- Web: [enynka.cz](https://enynka.cz)
 - E-mail: fichtnerova.s@seznam.cz
 - LinkedIn: [simona-fichtnerova](https://www.linkedin.com/in/simona-fichtnerova)
