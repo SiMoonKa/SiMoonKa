@@ -1,45 +1,25 @@
 ## Simona Fichtnerová
 
-Vyvíjím webové aplikace a AI automatizace. Sama jsem navrhla, naprogramovala a provozuji **rezervační platformu pro beauty profesionály** s online rezervacemi, předplatným a platbami. **Od září 2026 běží naostro a používá ji přes 80 profesionálů.** Běžný provoz za mě obstarávají automatizace a AI agenti, které jsem si postavila.
+Stavím a řídím týmy AI agentů. Každý agent má jednu roli, jasné hranice a nad sebou kontrolu. Já zadávám, kontroluji a schvaluji.
 
-Za půl roku od prázdného repozitáře do produkce: **1 300+ commitů**, kompletní vývoj, nasazení i provoz.
+### Jak pracuji s agenty
+- **Role místo jednoho univerzálního agenta** - kritik (fakta a pravidla textu), tester (funkce na mobilu, počet kliků), bezpečák (knihovny, chyby, klíče), údržbář (zálohy, plánované úlohy, expirace), měřič (co přivedlo lidi). Čtou a hlásí, nic sami nemění.
+- **Víc agentů najednou bez kolizí** - každý v cloudu na vlastní větvi `agent/<úkol>`, smí měnit jen svou zónu souborů, odevzdá pull request. Kontrola, pak spojení do vývojové větve, na veřejnost až po schválení. Pravidla mají agenti zapsaná v repozitáři a čtou si je sami.
+- **Poučení se zapisuje** - když agent začal ze staré verze a jeho změna šla do konfliktu, převedla jsem ji ručně a doplnila pravidlo „vždy začni z aktuální větve“.
+- **Člověk rozhoduje** - nic nejde ven bez mého schválení.
 
-### Co platforma umí
+### Automatizace
+- **n8n** - propojení RSS, Gemini, e-mailu a Google Sheets, upozornění na chybu workflow
+- **Plánované úlohy v cloudu** - týdenní kontrola dostupnosti, certifikátu a knihoven s upozorněním do mobilu
 
-- **Rezervace** - kalendář, kapacity, potvrzování, storno, ochrana proti dvojí rezervaci, minimální předstih
-- **Platby** - Stripe (předplatné i jednorázové), webhooky, PDF faktury
-- **Bezpečnost** - NextAuth, role, 2FA (TOTP), rate limiting přes Redis, CAPTCHA spouštěná podle rizika (OWASP)
-- **Integrace** - ARES (ověření IČO), e-maily, CDN pro fotky
-- **Plánované úlohy** - 17 automatických úloh: připomínky, expirace, úklid dat podle GDPR, hlídání domény a certifikátu
-- **CS/EN** včetně českého skloňování (5. pád)
-
-### AI automatizace v provozu
-
-- **AI agenti** - ranní přehled z dat (registrace, rezervace, návštěvnost podle kampaní), návrh článku na web, který před předáním zkontroluje druhý agent, hlídání komentářů pod příspěvky a příprava odpovědí, připomínky nedokončených profilů
-- **Grafika a obsah** - skripty, které hromadně a jednotně generují obálky článků, obrázky k příspěvkům a náhledy odkazů
-- **Člověk rozhoduje** - agenti připravují, já schvaluji. Nic nejde ven bez kontroly.
-
-### Jak pracuji
-
-- **Testy jako pojistka** - 1 500+ unit testů (Vitest) a 110+ E2E scénářů (Playwright) na desktopu i mobilu. Každá změna jde přes pull request a CI v GitHub Actions.
-- **Provoz** - Sentry, hlídání dostupnosti, denní zálohy s ověřenou obnovou. Nasazuji i několikrát denně.
-- **Bezpečnost od začátku** - při auditech jsem našla a opravila např. stored XSS přes podvrženou příponu souboru nebo API, které vracelo víc údajů, než mělo.
-- **AI jako kolega** - denně pracuji s Claude Code. Rozhoduji ale já a všechno, co jde do produkce, kontroluji a testuji.
-- **Produkt, ne jen kód** - obchodní podmínky, GDPR, fakturace i DPH jsem řešila sama, takže chápu, proč se co staví.
+### Pojistky
+Automatické testy (Vitest, Playwright), CI v GitHub Actions, pre-commit kontroly, zálohy s ověřenou obnovou.
 
 ### Technologie
+`Claude Code` `n8n` `Gemini` `TypeScript` `Next.js` `React` `Node.js` `PostgreSQL` `Python` `Vitest` `Playwright` `Docker` `GitHub Actions`
 
-`TypeScript` `Next.js 15` `React 19` `Node.js` `PostgreSQL` `Prisma` `Redis` `Tailwind CSS` `NextAuth` `Zod` `Stripe` `Python` `Claude Code` `Vitest` `Playwright` `Docker` `GitHub Actions` `Railway` `Sentry`
-
-Kód platformy je soukromý, ráda ho ukážu na pohovoru. Ukázku mého kódu najdete v repozitáři **[cesky-vokativ](https://github.com/SiMoonKa/cesky-vokativ)**.
-
-### Vzdělání
-
-Vibecoding Akademie I. (10/2026, [ověřit certifikát](https://www.vibecoding-akademie.cz/certifikat/VC-7V3AX4)) a Vibecoding Basecamp (03/2026, [ověřit](https://www.vibecoding-akademie.cz/certifikat/VC-QE2RHZ)). Předtím 18 let v kvalitě a auditech v automotive (interní auditor ISO 9001 / IATF 16949).
+### Předtím
+18 let v kvalitě a auditech v automotive.
 
 ### Hledám práci
-
-AI automatizace, interní nástroje nebo full-stack vývoj, na dálku a na zkrácený úvazek nebo spolupráci na IČO.
-
-- E-mail: fichtnerova.s@seznam.cz
-- LinkedIn: [simona-fichtnerova](https://www.linkedin.com/in/simona-fichtnerova)
+AI automatizace a agenti, na dálku, na zkrácený úvazek nebo na IČO. E-mail: fichtnerova.s@seznam.cz · [LinkedIn](https://www.linkedin.com/in/simona-fichtnerova)
